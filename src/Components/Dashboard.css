@@ -1,0 +1,46 @@
+/* src/components/Dashboard.css */
+.dashboard-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%); */
+  background-size: cover;
+  /* Ensure the image covers the entire container */
+  background-position: center;
+  /* Center the image horizontally and vertically */
+  background-image: url('https://www.fastweb.com/uploads/article_photo/photo/2038735/how-to-ask-for-help.jpeg');
+}
+
+.dashboard-container-sp {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%); */
+  background-size: cover;
+  /* Ensure the image covers the entire container */
+  background-position: center;
+  /* Center the image horizontally and vertically */
+  background-image: url('https://img.freepik.com/premium-vector/humanitarian-aid-social-worker-distributing-food-medical-supplies-needy-people-volunteering-donation-humanitarian-relief-volunteers-giving-help-boxes-refugees-government-assistance-poor_458444-1479.jpg');
+}
+
+.dashboard-card {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-card .btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.dashboard-card .btn-primary:hover {
+  background-color: #0056b3;
+}
